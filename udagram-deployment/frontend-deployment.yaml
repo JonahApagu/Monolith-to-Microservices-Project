@@ -16,7 +16,7 @@ spec:
         api: external        
     spec:
       containers:
-      - image: docker.io/jonahapagu/udagram-frontend:v2
+      - image: docker.io/jonahapagu/udagram-frontend:v4
         name: frontend
         imagePullPolicy: Always          
         ports:
@@ -29,4 +29,3 @@ spec:
             memory: "1024Mi"
             cpu: "500m"                
       restartPolicy: Always
-
