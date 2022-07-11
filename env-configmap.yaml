@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-config
+data:
+  POSTGRES_HOST: udagram.cikpiixb2gco.us-east-1.rds.amazonaws.com
+  POSTGRES_DB: postgres
+  AWS_BUCKET: udagram-apagu-dev
+  AWS_REGION: us-east-1
+  AWS_PROFILE: default
+  JWT_SECRET: testing
+  URL: https://3FAF650B34E8496F99C509509063E9A7.yl4.us-east-1.eks.amazonaws.com
+  #PORT: "8080"
