@@ -10,7 +10,7 @@ In this project;
 - A Travis CI pipeline to push images to DockerHub
 - The DockerHub images was pushed to the Kubernetes cluster
 - Autoscaling group was also configured for all running pods
--
+
 ## Prerequisites
 
 - Git
