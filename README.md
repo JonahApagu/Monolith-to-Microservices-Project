@@ -20,4 +20,3 @@ In this project;
 - Docker
 - AWS CLI
 - kubectl
-
